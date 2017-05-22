@@ -1,0 +1,361 @@
+
+/*
+ *
+ *   Pomegranate-Under Develop
+ *   NAME - Pomegranate Skin
+ *
+*/
+body.pomegranate {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+}
+.pomegranate .navbar-minimalize {
+    background: #459ad0;
+    border-color: #459ad0;
+    color: white;
+}
+.pomegranate .nav-header {
+  background: url("patterns/pomegranate3.png") no-repeat;
+}
+.pomegranate .label,
+.pomegranate .badge {
+  font-family: arial;
+  /* font-size: 10pt; */
+}
+.pomegranate .label,
+.pomegranate .badge {
+  font-family: arial;
+  /* font-size: 10pt; */
+}
+.pomegranate .font-bold {
+  font-weight: 500;
+}
+.pomegranate .wrapper-content {
+  padding: 30px 20px 40px;
+}
+@media (max-width: 768px) {
+  .pomegranate .wrapper-content {
+    padding: 30px 0 40px;
+  }
+}
+.pomegranate .page-heading {
+  border-bottom: none !important;
+  border-top: 0;
+  padding: 0 10px 20px 10px;
+  box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.34), 0 0 6px 0 rgba(0, 0, 0, 0.14);
+}
+.pomegranate .full-height-layout .page-heading {
+  border-bottom: 1px solid #e7eaec !important;
+}
+.pomegranate .ibox {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.pomegranate .ibox.border-bottom {
+  border-bottom: none !important;
+}
+.pomegranate .ibox-title,
+.pomegranate .ibox-content {
+  border-style: none;
+}
+.pomegranate .ibox-title h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.pomegranate a.close-canvas-menu {
+  color: #ffffff;
+}
+.pomegranate .welcome-message {
+  color: #ffffff;
+  font-weight: 300;
+}
+.pomegranate #top-search::-moz-placeholder {
+  color: #ffffff;
+}
+.pomegranate #top-search::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.pomegranate #nestable-output,
+.pomegranate #nestable2-output {
+  font-family: 'Roboto', lucida grande, lucida sans unicode, helvetica, arial, sans-serif;
+}
+.pomegranate .landing-page {
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+.pomegranate .landing-page.navbar-default.navbar-scroll {
+  background-color: #fff !important;
+}
+.pomegranate .landing-page.navbar-default {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+.pomegranate .landing-page.navbar-default .nav li a {
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+.pomegranate .nav > li > a {
+  color: #676a6c;
+  padding: 10px 20px 10px 25px;
+}
+.pomegranate .nav.navbar-right > li > a {
+  color: #ffffff;
+}
+.pomegranate .nav > li.active > a {
+  color: #5b5d5f;
+  font-weight: 700;
+}
+.pomegranate .navbar-default .nav > li > a:hover,
+.pomegranate .navbar-default .nav > li > a:focus {
+  font-weight: 700;
+  color: #5b5d5f;
+}
+.pomegranate .nav .open > a,
+.pomegranate .nav .open > a:hover,
+.pomegranate .nav .open > a:focus {
+  background: #1ab394;
+}
+.pomegranate .navbar-top-links li {
+  display: inline-table;
+}
+.pomegranate .navbar-top-links .dropdown-menu li {
+  display: block;
+}
+.pomegranate .pace-done .nav-header {
+  transition: all 0.4s;
+}
+.pomegranate .nav > li.active {
+  background: #e7eaec;
+  border-color: #58beff;
+}
+.pomegranate .nav-second-level li a {
+  padding: 7px 10px 7px 52px;
+}
+.pomegranate .navbar-top-links li a {
+  padding: 20px 10px;
+  min-height: 50px;
+}
+.pomegranate .nav > li > a {
+  font-weight: 400;
+}
+.pomegranate .navbar-static-side .nav > li > a:focus,
+.pomegranate .navbar-static-side .nav > li > a:hover {
+  background-color: inherit;
+}
+.pomegranate .navbar-top-links .dropdown-menu li a {
+  padding: 3px 20px;
+  min-height: inherit;
+}
+.pomegranate .nav-header .navbar-fixed-top a {
+  color: #ffffff;
+}
+.pomegranate .nav-header .text-muted {
+  color: #ffffff;
+}
+.pomegranate .navbar-form-custom .form-control {
+  font-weight: 300;
+}
+.pomegranate .mini-navbar .nav-second-level {
+  background-color: inherit;
+}
+.pomegranate .mini-navbar li.active .nav-second-level {
+  left: 65px;
+}
+.pomegranate .canvas-menu.mini-navbar .nav-second-level {
+  background: inherit;
+}
+.pomegranate .pace-done .navbar-static-side,
+.pomegranate .pace-done .nav-header,
+.pomegranate .pace-done li.active,
+.pomegranate .pace-done #page-wrapper,
+.pomegranate .pace-done .footer {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.pomegranate .navbar-fixed-top {
+  background: #fff;
+  transition-duration: 0.4s;
+  z-index: 2030;
+  border-bottom: none !important;
+}
+.pomegranate .navbar-fixed-top,
+.pomegranate .navbar-static-top {
+  background-color: #58beff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.pomegranate .navbar-static-side {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.pomegranate #right-sidebar {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  z-index: 900;
+}
+.pomegranate .white-bg .navbar-fixed-top,
+.pomegranate .white-bg .navbar-static-top {
+  background: #fff !important;
+}
+.pomegranate .contact-box {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+}
+.pomegranate .dashboard-header {
+  border-bottom: none !important;
+  border-top: 0;
+  padding: 20px 20px 20px 20px;
+  margin: 30px 20px 0 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+@media (max-width: 768px) {
+  .pomegranate .dashboard-header {
+    margin: 20px 0 0 0;
+  }
+}
+.pomegranate ul.notes li div {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.pomegranate .file {
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.pomegranate .mail-box {
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 0;
+  margin-bottom: 20px;
+  border: none;
+}
+.pomegranate .mail-box-header {
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 30px 20px 20px 20px;
+}
+.pomegranate .mailbox-content {
+  border: none;
+  padding: 20px;
+  background: #ffffff;
+}
+.pomegranate .social-feed-box {
+  border: none;
+  background: #fff;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.pomegranate.landing-page .navbar-default {
+  background-color: transparent !important;
+  border-color: transparent;
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: none;
+}
+.pomegranate.landing-page .navbar-default.navbar-scroll,
+.pomegranate.landing-page.body-small .navbar-default {
+  background-color: #ffffff !important;
+}
+.pomegranate.landing-page .nav > li.active {
+  background: inherit;
+}
+.pomegranate.landing-page .navbar-scroll .navbar-nav > li > a {
+  padding: 20px 10px;
+}
+.pomegranate.landing-page .navbar-default .nav li a {
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+.pomegranate.landing-page .nav > li > a {
+  padding: 25px 10px 15px 10px;
+}
+.pomegranate.landing-page .navbar-default .navbar-nav > li > a:hover,
+.pomegranate.landing-page .navbar-default .navbar-nav > li > a:focus {
+  background: inherit;
+  color: #1ab394;
+}
+.pomegranate.landing-page.body-small .nav.navbar-right > li > a {
+  color: #676a6c;
+}
+.pomegranate .landing_link a,
+.pomegranate .special_link a {
+  color: #ffffff !important;
+}
+.pomegranate.canvas-menu.mini-navbar .nav-second-level {
+  background: #f8f8f9;
+}
+.pomegranate.mini-navbar .nav-second-level {
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.pomegranate.mini-navbar .nav-second-level li a {
+  padding-left: 0;
+}
+.pomegranate.mini-navbar.fixed-sidebar .nav-second-level li a {
+  padding-left: 52px;
+}
+.pomegranate.top-navigation .nav.navbar-right > li > a {
+  padding: 15px 20px;
+  color: #676a6c;
+}
+.pomegranate.top-navigation .nav > li a:hover,
+.pomegranate .top-navigation .nav > li a:focus,
+.pomegranate.top-navigation .nav .open > a,
+.pomegranate.top-navigation .nav .open > a:hover,
+.pomegranate.top-navigation .nav .open > a:focus {
+  color: #1ab394;
+  background: #ffffff;
+}
+.pomegranate.top-navigation .nav > li.active a {
+  color: #1ab394;
+  background: #ffffff;
+}
+.pomegranate.fixed-nav #wrapper.top-navigation #page-wrapper {
+  margin-top: 0;
+}
+.pomegranate.fixed-sidebar.mini-navbar .navbar-static-side {
+  width: 0;
+}
+.pomegranate.fixed-sidebar.mini-navbar #page-wrapper {
+  margin: 0 0 0 0;
+}
+.pomegranate.body-small.fixed-sidebar.mini-navbar #page-wrapper {
+  margin: 0 0 0 0;
+}
+.pomegranate.body-small.fixed-sidebar.mini-navbar .navbar-static-side {
+  width: 220px;
+  background-color: #ffffff;
+}
+.pomegranate.canvas-menu nav.navbar-static-side {
+  z-index: 2001;
+  background: #ffffff;
+  height: 100%;
+  position: fixed;
+  display: none;
+}
+.pomegranate > .wrapper > .nav > li.active {
+  border-left: 4px solid #19aa8d;
+}
+
+.pomegranate .navbar-default .landing_link a {
+    background: #58beff;
+    color: white;
+}
+.pomegranate .navbar-default .landing_link a:hover {
+  background: #265675 !important;
+  color: white;
+}
+.pomegranate .navbar-default .landing_link a span.label {
+  background: #265675;
+  color: #ffffff;
+}
+.pomegranate .navbar-default .special_link a {
+    background: #0c6db7;
+    color: white;
+}
+.pomegranate .navbar-default .special_link a:hover {
+  background: #265675 !important;
+  color: white;
+}
+.pomegranate .navbar-default .special_link a span.label {
+  background: #265675;
+  color: #1ab394;
+}

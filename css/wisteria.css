@@ -1,0 +1,369 @@
+/*
+ *
+ *   Wisteria-Under Develop
+ *   NAME - Wisteria Skin
+ *
+*/
+.wisteria-skin {
+  font-weight: 600;
+  background: url("patterns/wisteria.png") repeat scroll 0;
+}
+.wisteria-skin:hover {
+  background: #a570b5;
+}
+body.wisteria {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+}
+.wisteria .navbar-minimalize {
+    background: #4b3566;
+    border-color: #4b3566;
+    color: white;
+}
+.wisteria .nav-header {
+  background: url("patterns/wisteria3.png") no-repeat;
+}
+.wisteria .label,
+.wisteria .badge {
+  font-family: arial;
+  /* font-size: 10pt; */
+}
+.wisteria .label,
+.wisteria .badge {
+  font-family: arial;
+  font-size: 10px;
+  /* font-size: 10pt; */
+}
+.wisteria .font-bold {
+  font-weight: 500;
+}
+.wisteria .wrapper-content {
+  padding: 30px 20px 40px;
+}
+@media (max-width: 768px) {
+  .wisteria .wrapper-content {
+    padding: 30px 0 40px;
+  }
+}
+.wisteria .page-heading {
+  border-bottom: none !important;
+  border-top: 0;
+  padding: 0 10px 20px 10px;
+  box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.34), 0 0 6px 0 rgba(0, 0, 0, 0.14);
+}
+.wisteria .full-height-layout .page-heading {
+  border-bottom: 1px solid #e7eaec !important;
+}
+.wisteria .ibox {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.wisteria .ibox.border-bottom {
+  border-bottom: none !important;
+}
+.wisteria .ibox-title,
+.wisteria .ibox-content {
+  border-style: none;
+}
+.wisteria .ibox-title h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.wisteria a.close-canvas-menu {
+  color: #ffffff;
+}
+.wisteria .welcome-message {
+  color: #ffffff;
+  font-weight: 300;
+}
+.wisteria #top-search::-moz-placeholder {
+  color: #ffffff;
+}
+.wisteria #top-search::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.wisteria #nestable-output,
+.wisteria #nestable2-output {
+  font-family: 'Roboto', lucida grande, lucida sans unicode, helvetica, arial, sans-serif;
+}
+.wisteria .landing-page {
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+.wisteria .landing-page.navbar-default.navbar-scroll {
+  background-color: #fff !important;
+}
+.wisteria .landing-page.navbar-default {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+.wisteria .landing-page.navbar-default .nav li a {
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+.wisteria .nav > li > a {
+  color: #676a6c;
+  padding: 10px 20px 10px 25px;
+}
+.wisteria .nav.navbar-right > li > a {
+  color: #ffffff;
+}
+.wisteria .nav > li.active > a {
+  color: #5b5d5f;
+  font-weight: 700;
+}
+.wisteria .navbar-default .nav > li > a:hover,
+.wisteria .navbar-default .nav > li > a:focus {
+  font-weight: 700;
+  color: #5b5d5f;
+}
+.wisteria .nav .open > a,
+.wisteria .nav .open > a:hover,
+.wisteria .nav .open > a:focus {
+  background: #1ab394;
+}
+.wisteria .navbar-top-links li {
+  display: inline-table;
+}
+.wisteria .navbar-top-links .dropdown-menu li {
+  display: block;
+}
+.wisteria .pace-done .nav-header {
+  transition: all 0.4s;
+}
+.wisteria .nav > li.active {
+  background: #e7eaec;
+  border-color: #4b3566;
+}
+.wisteria .nav-second-level li a {
+  padding: 7px 10px 7px 52px;
+}
+.wisteria .navbar-top-links li a {
+  padding: 20px 10px;
+  min-height: 50px;
+}
+.wisteria .nav > li > a {
+  font-weight: 400;
+}
+.wisteria .navbar-static-side .nav > li > a:focus,
+.wisteria .navbar-static-side .nav > li > a:hover {
+  background-color: inherit;
+}
+.wisteria .navbar-top-links .dropdown-menu li a {
+  padding: 3px 20px;
+  min-height: inherit;
+}
+.wisteria .nav-header .navbar-fixed-top a {
+  color: #ffffff;
+}
+.wisteria .nav-header .text-muted {
+  color: #ffffff;
+}
+.wisteria .navbar-form-custom .form-control {
+  font-weight: 300;
+  color: white;
+}
+.wisteria .mini-navbar .nav-second-level {
+  background-color: inherit;
+}
+.wisteria .mini-navbar li.active .nav-second-level {
+  left: 65px;
+}
+.wisteria .canvas-menu.mini-navbar .nav-second-level {
+  background: inherit;
+}
+.wisteria .pace-done .navbar-static-side,
+.wisteria .pace-done .nav-header,
+.wisteria .pace-done li.active,
+.wisteria .pace-done #page-wrapper,
+.wisteria .pace-done .footer {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.wisteria .navbar-fixed-top {
+  background: #fff;
+  transition-duration: 0.4s;
+  z-index: 2030;
+  border-bottom: none !important;
+}
+.wisteria .navbar-fixed-top,
+.wisteria .navbar-static-top {
+  background-color: #4b3566 !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.wisteria .navbar-static-side {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.wisteria #right-sidebar {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  z-index: 900;
+}
+.wisteria .white-bg .navbar-fixed-top,
+.wisteria .white-bg .navbar-static-top {
+  background: #fff !important;
+}
+.wisteria .contact-box {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+}
+.wisteria .dashboard-header {
+  border-bottom: none !important;
+  border-top: 0;
+  padding: 20px 20px 20px 20px;
+  margin: 30px 20px 0 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+@media (max-width: 768px) {
+  .wisteria .dashboard-header {
+    margin: 20px 0 0 0;
+  }
+}
+.wisteria ul.notes li div {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.wisteria .file {
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.wisteria .mail-box {
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 0;
+  margin-bottom: 20px;
+  border: none;
+}
+.wisteria .mail-box-header {
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 30px 20px 20px 20px;
+}
+.wisteria .mailbox-content {
+  border: none;
+  padding: 20px;
+  background: #ffffff;
+}
+.wisteria .social-feed-box {
+  border: none;
+  background: #fff;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.wisteria.landing-page .navbar-default {
+  background-color: transparent !important;
+  border-color: transparent;
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: none;
+}
+.wisteria.landing-page .navbar-default.navbar-scroll,
+.wisteria.landing-page.body-small .navbar-default {
+  background-color: #ffffff !important;
+}
+.wisteria.landing-page .nav > li.active {
+  background: inherit;
+}
+.wisteria.landing-page .navbar-scroll .navbar-nav > li > a {
+  padding: 20px 10px;
+}
+.wisteria.landing-page .navbar-default .nav li a {
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+.wisteria.landing-page .nav > li > a {
+  padding: 25px 10px 15px 10px;
+}
+.wisteria.landing-page .navbar-default .navbar-nav > li > a:hover,
+.wisteria.landing-page .navbar-default .navbar-nav > li > a:focus {
+  background: inherit;
+  color: #1ab394;
+}
+.wisteria.landing-page.body-small .nav.navbar-right > li > a {
+  color: #676a6c;
+}
+.wisteria .landing_link a,
+.wisteria .special_link a {
+  color: #ffffff !important;
+}
+.wisteria.canvas-menu.mini-navbar .nav-second-level {
+  background: #f8f8f9;
+}
+.wisteria.mini-navbar .nav-second-level {
+  background-color: #f3f3f3;
+  /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); */
+}
+.wisteria.mini-navbar .nav-second-level li a {
+  padding-left: 0;
+}
+.wisteria.mini-navbar.fixed-sidebar .nav-second-level li a {
+  padding-left: 52px;
+}
+.wisteria.top-navigation .nav.navbar-right > li > a {
+  padding: 15px 20px;
+  color: #676a6c;
+}
+.wisteria.top-navigation .nav > li a:hover,
+.wisteria .top-navigation .nav > li a:focus,
+.wisteria.top-navigation .nav .open > a,
+.wisteria.top-navigation .nav .open > a:hover,
+.wisteria.top-navigation .nav .open > a:focus {
+  color: #1ab394;
+  background: #ffffff;
+}
+.wisteria.top-navigation .nav > li.active a {
+  color: #1ab394;
+  background: #ffffff;
+}
+.wisteria.fixed-nav #wrapper.top-navigation #page-wrapper {
+  margin-top: 0;
+}
+.wisteria.fixed-sidebar.mini-navbar .navbar-static-side {
+  width: 0;
+}
+.wisteria.fixed-sidebar.mini-navbar #page-wrapper {
+  margin: 0 0 0 0;
+}
+.wisteria.body-small.fixed-sidebar.mini-navbar #page-wrapper {
+  margin: 0 0 0 0;
+}
+.wisteria.body-small.fixed-sidebar.mini-navbar .navbar-static-side {
+  width: 220px;
+  background-color: #ffffff;
+}
+.wisteria.canvas-menu nav.navbar-static-side {
+  z-index: 2001;
+  background: #ffffff;
+  height: 100%;
+  position: fixed;
+  display: none;
+}
+.wisteria > .wrapper > .nav > li.active {
+  border-left: 4px solid #19aa8d;
+}
+
+.wisteria .navbar-default .landing_link a {
+    background: #4b3566;
+    color: white;
+}
+.wisteria .navbar-default .landing_link a:hover {
+  background: #ab392d !important;
+  color: white;
+}
+.wisteria .navbar-default .landing_link a span.label {
+  background: #265675;
+  color: #ffffff;
+}
+.wisteria .navbar-default .special_link a {
+    background: #a40203;
+    color: white;
+}
+.wisteria .navbar-default .special_link a:hover {
+  background: #ab392d !important;
+  color: white;
+}
+.wisteria .navbar-default .special_link a span.label {
+  background: #7b0102;
+  color: #1ab394;
+}
